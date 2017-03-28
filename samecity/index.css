@@ -1,0 +1,188 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select,span {
+	margin: 0;
+	padding: 0;
+}
+*{box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #232323;
+}
+li{
+	list-style-type: none; 
+}
+/*头部css*/
+img.top,img.banner,img.beauty_font{
+	display: block;
+	width: 100%;
+}
+.content{
+	/*margin-top: 0.1rem;*/
+	margin:0 2% 0 2%;
+}
+/*上边的两条浅线*/
+.bor {
+	position: relative;
+	display: block;
+	height: 20px;
+	margin-bottom: 0.5%;
+	
+}
+.bor .border_left{
+	position: absolute;
+	height: 40%;
+	width: 40%;
+	margin-right: 15px;
+	border-bottom: 2px solid #e2e2e2;
+	/*top:0.1rem;*/
+
+}
+.bor .border_right{
+	position: absolute;
+	height: 40%;
+	width: 40%;
+	/*top:0.1rem;*/
+	right: 0.2%;
+	border-bottom: 2px solid #e2e2e2;
+}
+/*图片*/
+.girl1{
+	margin-bottom: 5%;
+	position: relative;
+	height: 100px;
+	margin-bottom: 7%;
+}
+.girl1 .girl1_in{
+	/*height: 100px;*/
+	width: 26%;
+	display: inline-block;
+	margin-bottom: 20%;
+
+}
+.desc{
+	/*height: 100%;*/
+	display: inline-block;
+	width: 69%;
+	margin-left: 2%;
+	border-bottom: 2px solid #e2e2e2;
+}
+.nam{
+	font-family: "微软雅黑";
+	font-size: 110%;
+	height: 25px;
+	width: 25%;
+	border-bottom: 2px solid #fcdd4e;
+	text-align: center;
+
+}
+.older,.fav{
+	display: inline-block;
+}
+.age,.heigh{
+	display: block;
+	font-size: 100%;
+	line-height: 120%;
+}
+.think{
+	font-size: 15px;
+	line-height: 19px;
+}
+.distance,.eat,.sleep,.greeting{
+	 font-size: 56%;;
+}
+.distance,.eat_sleep{
+	display: block;
+	height: 15px;
+	
+}
+.distance{
+	margin-bottom: 5px;
+}
+.eat,.sleep{
+	display: inline-block;
+}
+.detail{
+	line-height: 26px;
+}
+/* 设置字体颜色 */
+.eat{
+	font-size: 100%;
+	margin-right: 5px;
+	color: #fadc4d;
+}
+.sleep{
+	font-size: 100%;
+	color: #fb6f4e;
+}
+.distance_jpg{
+
+	width: 23%;
+}
+.think{
+	/* color: #e2e2e2; */
+	color: #787878;
+	    font-size: 80%;
+}
+.greeting{
+	/*width: 21%;*/
+	text-align: right;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	background-color: #fadc4d;
+	border-radius: 2.5px;
+	right: 0rem;
+	top: 55px;
+}
+.greeting span{
+	display: inline-block;
+	margin-right: 6%;
+	margin-left: 2.5px;
+	font-size: 100%;
+}
+.greeting img{
+
+	margin-bottom: 2.4px;
+	width: 23%;
+	margin-right: 4%;
+}
+
+/* 下载 */
+div.bot{
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	background: #6c6c6c;
+	opacity: 0.6;
+	height: 60px;
+	width: 100%;
+}
+.download{
+	z-index: 9999;
+	position: fixed;
+	bottom: 10px;
+	left: 0.61rem;
+	background: #fadc4d; 
+	left: 10%;
+	width: 80%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	border-radius: 10px;
+	color: #6c6c6c;
+	font-weight: bold;
+
+}
+.content{
+	padding-bottom: 60px;
+}
